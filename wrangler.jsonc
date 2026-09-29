@@ -1,0 +1,10 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  // Must match the Worker name in the Cloudflare dashboard
+  "name": "trailfuelco-site",
+  "compatibility_date": "2026-09-29",
+  "assets": {
+    // Only the files in public/ are published
+    "directory": "./public"
+  }
+}
